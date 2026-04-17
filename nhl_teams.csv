@@ -1,0 +1,33 @@
+id,franchiseId,fullName,leagueId,rawTricode,triCode
+8,1,Montréal Canadiens,133,MTL,MTL
+7,19,Buffalo Sabres,133,BUF,BUF
+28,29,San Jose Sharks,133,SJS,SJS
+13,33,Florida Panthers,133,FLA,FLA
+12,26,Carolina Hurricanes,133,CAR,CAR
+52,35,Winnipeg Jets,133,WPG,WPG
+18,34,Nashville Predators,133,NSH,NSH
+1,23,New Jersey Devils,133,NJD,NJD
+9,30,Ottawa Senators,133,OTT,OTT
+21,27,Colorado Avalanche,133,COL,COL
+15,24,Washington Capitals,133,WSH,WSH
+10,5,Toronto Maple Leafs,133,TOR,TOR
+22,25,Edmonton Oilers,133,EDM,EDM
+20,21,Calgary Flames,133,CGY,CGY
+19,18,St. Louis Blues,133,STL,STL
+17,12,Detroit Red Wings,133,DET,DET
+3,10,New York Rangers,133,NYR,NYR
+24,32,Anaheim Ducks,133,ANA,ANA
+23,20,Vancouver Canucks,133,VAN,VAN
+16,11,Chicago Blackhawks,133,CHI,CHI
+55,39,Seattle Kraken,133,SEA,SEA
+5,17,Pittsburgh Penguins,133,PIT,PIT
+6,6,Boston Bruins,133,BOS,BOS
+25,15,Dallas Stars,133,DAL,DAL
+14,31,Tampa Bay Lightning,133,TBL,TBL
+4,16,Philadelphia Flyers,133,PHI,PHI
+30,37,Minnesota Wild,133,MIN,MIN
+29,36,Columbus Blue Jackets,133,CBJ,CBJ
+26,14,Los Angeles Kings,133,LAK,LAK
+68,40,Utah Mammoth,133,UTA,UTA
+54,38,Vegas Golden Knights,133,VGK,VGK
+2,22,New York Islanders,133,NYI,NYI
