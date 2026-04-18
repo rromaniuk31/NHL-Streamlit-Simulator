@@ -144,15 +144,11 @@ def display_logo(team, is_winner):
         unsafe_allow_html = True
     )
 
-st.title("NHL Playoff Simulator")
+st.title("NHL Simulator")
 
 # Select simulation type
-simulation_type_choice = st.selectbox(
-    "Select Simulation Type",
-    options = simulation_types_df["simType"].unique(),
-    index = None,
-    placeholder = "Select a simulation type..."
-)
+simulation_type_choice = st.selectbox("Select Simulation Type", options = simulation_types_df["simType"].unique(), index = None, 
+                                      placeholder = "Select a simulation type...")
 
 if simulation_type_choice:
     simulation_choice = simulation_types_df[simulation_types_df["simType"] == simulation_type_choice]["simType"].item()
@@ -171,12 +167,8 @@ else:
 
 if (simulation_type_choice != "Entire Playoffs") & (simulation_type_choice != "1000 Playoffs"):
     # Select first team
-    first_team_choice = st.selectbox(
-        "Select First Team",
-        options = teams_df["fullName"].sort_values(ascending = True).unique(),
-        index = None,
-        placeholder = "Select a team..."
-    )
+    first_team_choice = st.selectbox("Select First Team", options = teams_df["fullName"].sort_values(ascending = True).unique(), index = None,
+                                     placeholder = "Select a team...")
 
     if first_team_choice:
         first_team_df = teams_df[teams_df["fullName"] == first_team_choice]["fullName"].item()
@@ -187,12 +179,8 @@ if (simulation_type_choice != "Entire Playoffs") & (simulation_type_choice != "1
         st.write("Please select a team to simulate.")
 
     # Select second team
-    second_team_choice = st.selectbox(
-        "Select Second Team",
-        options = teams_df["fullName"].sort_values(ascending = True).unique(),
-        index = None, 
-        placeholder = "Select a second team..."
-    )
+    second_team_choice = st.selectbox("Select Second Team", options = teams_df["fullName"].sort_values(ascending = True).unique(), index = None, 
+                                      placeholder = "Select a second team...")
 
     if second_team_choice:
         second_team_df = teams_df[teams_df["fullName"] == second_team_choice]["fullName"].item()
